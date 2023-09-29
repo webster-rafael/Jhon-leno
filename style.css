@@ -112,6 +112,59 @@ footer {
     display: none;
 }
 
+@media (min-width: 1700px)
+{
+    .div-info > h1{
+        font-family: 'Audiowide', cursive;
+        display: flex;
+        font-size: 3.8em;
+        flex-direction: column;
+        margin: 200px 100px 20px;
+    }
+    
+    .div-info > p {
+          display: flex;
+          flex-wrap: wrap;
+          margin: 0 70px;
+          line-height: 1.7em;
+          font-size: 1.9em;
+          text-align: left;
+          font-family: 'Poppins', sans-serif;
+    }
+    
+    .div-info > ul {
+        display: flex;
+        flex-direction: column;
+          flex-wrap: wrap;
+          margin: 15px 95px;
+          line-height: 1.7em;
+          font-size: 1.9em;
+          font-family: 'Poppins', sans-serif;
+    }
+    .div-info > h2{
+        margin: 10px 40px 1px;
+        font-weight: 600;
+        font-size: 1.6em;
+    }
+    .p2{
+        font-weight: 800;
+        font-size: 1.6em;  
+    }
+    
+    .button {
+        width: 60%;
+        display: flex;
+        margin: 10px auto;
+        height: 3.7em;
+        border-radius: 10%;
+        background-color: black;
+        color: #40DFF1;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Audiowide', cursive;  
+    }
+}
+
 @media (max-width:880px){
 body {
     display: flex;
