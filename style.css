@@ -217,6 +217,21 @@ header img {
         align-items: center;
         text-align: end;
 }
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Poppins', sans-serif;
+    margin: 1%;
+}
 ::-webkit-scrollbar{
     width: 0px;
     height: 0px;
