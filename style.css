@@ -140,7 +140,7 @@ div {
 }
 
 .contact {
-    margin: 0 auto 60px;
+    margin: 0 auto 30%;
     padding: auto;
     display: flex;
     border-radius: 100%;
@@ -161,9 +161,14 @@ div {
 
 header {
     display: flex;
+    position: fixed;  
+    top: 0;
+    left: 0;
+    width: 100%;
     width: 100%;
     height: 113px;
     background-color: black;
+    z-index: 1000;
     overflow-x: hidden;
 }
 
