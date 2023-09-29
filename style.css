@@ -112,7 +112,7 @@ footer {
     display: none;
 }
 
-@media (max-width:750px){
+@media (max-width:880px){
 body {
     display: flex;
     flex-direction: column;
