@@ -12,7 +12,7 @@ body {
     width: 100%;
     box-sizing: border-box;
     margin: 0;
-    background-color: blueviolet;
+    background-color: black;
 }
 div {
     display: flex;
@@ -24,6 +24,7 @@ div {
     width: 50%;
     display: flex;
     margin: auto;
+    position: relative;
 }
 
 .div-logo > img {
@@ -35,6 +36,30 @@ div {
     align-items: center;
 }
 
+.div-logo h1 {
+    color: #1894ce;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-family: 'Audiowide', cursive;
+    font-size: 1.3em;
+    top: 69%;
+    
+}
+
+.div-logo p {
+    color: white;
+    display: flex;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 77%;
+}
+
 .contact {
     display: none;
 }
@@ -43,7 +68,7 @@ header {
     display: none;
 }
 .div-info {
-    background-color: #40DFF1;
+    background-color: #1894ce;
     height: 100vh;
     width: 50%;
     display: flex; 
@@ -54,7 +79,7 @@ header {
     font-family: 'Audiowide', cursive;
     display: flex;
     flex-direction: column;
-    margin: 150px 30px 10px;
+    margin: 100px 30px 10px;
 }
 
 .div-info > p {
@@ -99,7 +124,7 @@ header {
 }
 
 .button a {
-    color: #40DFF1;
+    color: #1894ce;
     font-family: 'Audiowide', cursive;
     text-decoration: none;
 }
@@ -158,7 +183,7 @@ footer {
         height: 3.7em;
         border-radius: 10%;
         background-color: black;
-        color: #40DFF1;
+        color: #1894ce;
         justify-content: center;
         align-items: center;
         font-family: 'Audiowide', cursive;  
@@ -190,7 +215,28 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
+
+.div-logo h1 {
+    color: #1894ce;
+    width: 50%;
+    border: 1px solid ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-family: 'Audiowide', cursive;
+    font-size: 1.3em;
+    top: 54%; 
+}
+
+.div-logo p {
+    color: white;
+    position: absolute;
+    top: 59%;
+}
+
 
 .contact {
     margin: 0 auto 30%;
@@ -206,7 +252,7 @@ div {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: #40DFF1;
+    color: #1894ce;
 }
 .contact i {
     font-size: 50px;
@@ -247,6 +293,14 @@ header img {
     flex-direction: column;
     margin: 100px 30px 10px;
     
+}
+
+.contato-h2 {
+    display: none;
+}
+
+#contato-h2 {
+    display: none;
 }
 }
 
